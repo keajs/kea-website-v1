@@ -8,7 +8,7 @@
     "start": "./node_modules/.bin/webpack-dev-server --history-api-fallback --hot --port 2000",
     "compile": "NODE_ENV=production ./node_modules/.bin/webpack --progress",
     "prerender": "NODE_ENV=production node prerender.js",
-    "build": "yarn run compile"
+    "build": "yarn run compile && yarn run prerender"
   },
   "repository": {
     "type": "git",
