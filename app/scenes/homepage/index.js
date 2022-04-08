@@ -80,7 +80,7 @@ export default class HomepageScene extends Component {
           </div>
         </div>
         <div className='description' style='font-size: 18px;'>
-          This documentation is for the old Kea 0.28. For the latest documentation (1.0 and newer), <a href='https://kea.js.org'>see here</a>!
+          This documentation is for the old Kea 0.28. For the latest documentation (1.0 and newer), <a href='https://keajs.org'>see here</a>!
         </div>
         <h2>What is Kea?</h2>
         <div className='description'>
